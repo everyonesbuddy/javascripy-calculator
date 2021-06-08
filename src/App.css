@@ -29,6 +29,11 @@
   font-size: 20px;
 }
 
+.padButton:hover {
+  border: 1px solid white;
+  color: #ccc;
+}
+
 .dis {
   grid-area: dis;
   background-color: black;
@@ -54,4 +59,21 @@
 
 .blue {
   background-color: #5599ff;
+}
+
+.total {
+  padding: 5px 20px;
+  color: yellow;
+}
+
+.dis input {
+  width: 90%;
+  color: white;
+  padding: 5px 20px;
+  text-align: right;
+  background-color: black;
+}
+
+input::placeholder {
+  color: white;
 }
